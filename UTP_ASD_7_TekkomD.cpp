@@ -118,7 +118,7 @@ void tampil(Mahasiswa *head){
 
     Mahasiswa *temp = head;
     while (temp != NULL){
-        cout << temp->nama << " (Kel: " << temp->kelompok << ") -> ";
+        cout << temp->nama << " (Kel: " << temp->kelompok << ")" << endl;
         temp = temp->next;
     }
     cout << "NULL\n";
